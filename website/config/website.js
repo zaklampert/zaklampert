@@ -6,11 +6,11 @@ module.exports = {
   headline: 'This is where I keep my stuff', // Headline for schema.org JSONLD
   url: 'https://zaklampert.com', // Domain of your site. No trailing slash!
   siteLanguage: 'en', // Language Tag on <html> element
-  logo: '', // Used for SEO
+  logo: '/logos/logo-1024.png', // Used for SEO
   ogLanguage: 'en_US', // Facebook Language
 
   // JSONLD / Manifest
-  favicon: '', // Used for manifest favicon generation
+  favicon: 'src/favicon.png', // Used for manifest favicon generation
   shortName: 'Zak', // shortname for manifest. MUST be shorter than 12 characters
   author: 'Zak LAmpert', // Author for schemaORGJSONLD
   themeColor: '#3D63AE',
